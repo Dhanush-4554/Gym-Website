@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color : white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+/* header  */
+header{
+    background-color: black;
+    padding-top: 10px;
+}
+
+
+/* left logo */
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+.left img{
+    height: 100px;
+    filter: invert();
+}
+.left div{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* navbar */
+.mid{
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.navbar li a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+.navbar li a:active{
+    text-decoration: underline;
+    color: grey;
+}
+#check{
+    display: none;
+}
+#cancel{
+    display: none;
+}
+.menu, .menuCancel{
+    height: 50px;
+    filter: invert();
+    cursor: pointer;
+    display: none;
+}
+/* buttons */
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+}
+
+.btn{
+    margin: 0px 10px;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.btn:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+
+/* Container : Form for collecting details  */
+#backAdjust{
+    background: url('https://cdn.pixabay.com/photo/2017/01/16/15/28/boxer-1984344_1280.jpg');
+    background-repeat: repeat-x;
+    height: 560px;
+}
+.container{
+    border: 2px solid white;
+    margin: 100px 50px;
+    padding: 30px 30px;
+    width: 40%;
+    border-radius: 20px;
+}
+.formgroup input{
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+.container:hover{
+    background-color: rgb(37, 37, 37);
+    background-blend-mode: soft-light;
+}
+
+
+/* section : info */
+#offer{
+    background-color:rgb(82, 82, 126) ;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
+#offer h1,
+#offer p{
+    color: rgb(255, 255, 71);
+}
+#offer h2{
+    color:rgb(255, 80, 80) ;
+}
+#offer h1{
+    display: block;
+    padding: 20px;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+#offer h2{
+    display: block;
+    padding: 20px;
+    width: 25%;
+    font-size: 25px;
+    margin: auto;
+}
+#offer h2 p{
+    font-size: 17px;
+    color: white;
+}
+#a50{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#offer a{
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 0;
+    padding: 12px;
+    border: 3px solid black;
+    text-decoration: none;
+    margin: auto;
+}
+
+#offer a:hover{
+    background-color: black;
+    color: white;
+}
+
+ /* cards */
+ .card-container {
+    display: flex;
+    overflow-x: scroll;
+    height: 520px;
+    padding: 50px;
+    padding-top: 5px;
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    width: 380px;
+    margin-right: 20px;
+    background-color: #998fd0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-out;
+    padding-top: 0;
+    border: 2px solid white;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    border: 2px solid black;
+  }
+  .carding{
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    color: black;
+    font-size: 50px;
+    padding-top: 25px;
+  }
+  .card img {
+    display: block;
+    height: 300px;
+    margin: 20px auto;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 40px;
+  }
+  
+  .card h3 {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    color: red;
+    font-size: 35px;
+  }
+  #infoc{
+    font-size: 13px;
+    color: rgb(81, 81, 81);
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  .card p {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    font-size: 15px;
+    color: #000000;
+  }
+  .card-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+  }  
+  
+
+
+  /* services */
+ .services{
+    background: url('https://cdn.pixabay.com/photo/2017/01/09/11/30/dumbbell-1966247__480.jpg');
+    padding: 50px;
+ }
+  
+  .services ul{
+    list-style: none;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .services ul li{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .services ul li p{
+    color: red;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 1000;
+  }
+  .services h1{
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 60%;
+    margin: auto;
+    font-size: 40px;
+  }
+  .gymser{
+    margin: 10px 50px;
+    height: 100px;
+  }
+
+  /* gym pictures */
+  .pictures{
+    padding: 70px;
+  }
+  .carding2{
+    display: block;
+    width: 80%;
+    padding: 20px;
+    margin: 0px auto;
+    color: black;
+    font-size: 50px;
+  }
+  .card-container2 {
+    display: flex;
+    overflow-x: scroll;
+    height: 300px;
+  }
+  .pictures{
+    background-color: #998fd0;
+  }
+  .card2 {
+    flex: 0 0 auto;
+    width: 400px;
+    margin-right: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .card2:hover {
+    transform: scale(1.05);
+  }
+  
+  .card2 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card2 h3 {
+    margin: 10px;
+  }
+  
+  .card2 p {
+    margin: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  .card-container2::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+  }  
+
+  /* contact  */
+ .contact{
+    padding: 80px;
+    background-color: rgb(186, 47, 121);
+ }
+ .contact h1{
+    font-size: 90px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 75%;
+    margin: auto;
+ }
+ .contact h2{
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 75%;
+    margin: 20px auto;
+ }
+ .contact a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 90px;
+    padding:2px 40px;
+ }
+ .contact a:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+ }
+
+
+
+
+ /* footer  */
+ .foot{
+    padding: 30px;
+    background-color: #dcdcdc;
+    
+ }
+ .foot p{
+    color: black;
+    font-size: 25px;
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+   
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Utility Classes */
+.pri-h{
+    font-size: 80px;
+}

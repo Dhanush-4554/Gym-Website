@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    
+#offer{
+    flex-direction: column;
+}
+#offer h1,
+#offer p{
+    color: rgb(255, 255, 71);
+}
+#offer h2{
+    color: rgb(255, 80, 80);
+}
+#offer h1{
+    display: block;
+    padding: 0px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+#offer h2{
+    display: block;
+    padding: 0px;
+    width: 50%;
+    font-size: 20px;
+    margin: auto;
+}
+#offer h2 p{
+    font-size: 10px;
+    color: white;
+}
+#a50{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#offer a{
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 0;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid black;
+    text-decoration: none;
+}
+
+#offer a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* Container:formgroup */
+.container{
+    width: 60%;
+    margin-top: 150px;
+}
+.formgroup input{
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+   
+}
+@media (max-width: 500px){
+    .formgroup input{
+        font-size: 15px;
+    }
+}
+
+
+/* navbar toggle */
+label #btn,.menu{
+    display: block;
+    float: right;
+    margin-right: 20px;
+}
+
+.mid ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(61 61 80) ;
+    top:-1%;
+
+    box-sizing: border-box;
+    right:-100%;
+    transition: all .3s;
+    text-align: center;
+}
+#cancel{
+    position: fixed;
+    z-index: 5;
+}
+.mid ul li {
+    display: block;
+    margin: 80px 0;
+    line-height: 40px;
+}
+.mid ul li a:hover{
+    color: black;
+    border-color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgb(42, 152, 255);
+}
+#check:checked ~ ul{
+    right: 0;
+}
+#check:checked ~ #btn{
+    display: none;
+}
+#check:checked ~ #cancel,.menuCancel{
+    display: block; 
+    float: right;
+    margin-right: 10px;
+}
+#check:checked~ .menuCancel::before{
+    position: fixed;
+    z-index: -4;
+}
+
+.right button{
+    display: block;
+    float: inline-end;
+    margin: 0;
+    padding: 0;
+}
+.mid{
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 600px){
+    .right button{
+        display: none;
+    }
+    .mid{
+        width: 95%;
+    }
+}
+
+/* offer */
+#offer a{
+    font-size: 12px;
+}
+#offer h2 p{
+    display: none;
+}
+/* cards */
+.carding{
+    font-size: 25px;
+}
+
+/* services */
+.services h1{
+    font-size: 25px;
+}
+.services ul{
+    flex-direction: column;
+    
+}
+.services li{
+    margin: 20px;
+}
+/* gympics */
+.pictures h1{
+    font-size: 25px;
+}
+
+
+
+/* contact */
+.contact{
+    padding: 50px 0;
+}
+.contact h1{
+    font-size: 40px;
+}
+.contact h2{
+    font-size: 30px;
+}
+.contact a{
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* Utility Classes */
+.pri-h{
+   font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
