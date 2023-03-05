@@ -153,9 +153,16 @@ label #btn,.menu{
 /* cards */
 .carding{
     font-size: 25px;
+    padding: 20px;
 }
-
+.card-container{
+    padding: 10px;
+}
 /* services */
+
+.services{
+    padding: 20px;
+}
 .services h1{
     font-size: 25px;
 }
@@ -164,11 +171,14 @@ label #btn,.menu{
     
 }
 .services li{
-    margin: 20px;
+    margin: 20px 0;
 }
 /* gympics */
 .pictures h1{
     font-size: 25px;
+}
+.pictures{
+    padding: 10px;
 }
 
 
@@ -186,11 +196,6 @@ label #btn,.menu{
 .contact a{
     font-size: 20px;
 }
-
-
-
-
-
 
 /* Utility Classes */
 .pri-h{
