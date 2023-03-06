@@ -54,6 +54,13 @@
 
 
 /* Container:formgroup */
+
+#backAdjust{
+    background: url('https://cdn.pixabay.com/photo/2017/01/16/15/28/boxer-1984344_1280.jpg') center center/cover;
+    background-repeat: no-repeat;
+    background-position:-400px ;
+    height: 560px;
+}
 .container{
     width: 60%;
     margin-top: 150px;
