@@ -191,6 +191,7 @@ header{
     height: 520px;
     padding: 50px;
     padding-top: 5px;
+    padding-bottom: 0px;
   }
   
   .card {
@@ -254,6 +255,13 @@ header{
     background-color: transparent;
   }  
   
+    /* slide  */
+  .slide h1{
+    color: black;
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+  }
 
 
   /* services */
